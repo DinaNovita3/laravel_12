@@ -1,0 +1,108 @@
+
+body {
+  background-color: #CD9494;
+}
+  
+.jumbotron {
+font-family: serif;
+margin: 100px;
+padding-top: 5rem;
+background-color: #CD9494;
+display: flex;
+gap: 30px;
+align-items: center;
+}
+
+body {
+    background-color: #CD9494;
+  }
+
+  .about {
+font-family: serif;
+padding-top: 4rem;
+background-color: #CD9494;
+  }
+
+  .col {
+    padding-top: 2rem;
+  }
+
+ 
+
+  .projects {
+      padding-top: 5rem;
+  }
+
+   .contact .row{
+        background-color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .contact .row .content{
+        flex:1 1 30rem;
+        padding:4rem;
+        padding-bottom: 0;
+    }
+    
+    .contact .row form{
+        flex:1 1 45rem;
+        padding:2rem;
+        margin:2rem;
+        margin-bottom: 4rem;
+    }
+    
+    .contact .row form .box{
+        padding:0.8rem;
+        margin:1rem 0;
+        background:#3333;
+        color:#fff;
+        text-transform: none;
+        font-size: 1rem;
+        width:100%;
+    }
+    
+    .contact .row form .box::placeholder{
+        text-transform: capitalize;
+    }
+    
+    .contact .row form .message{
+        height: 10rem;
+        resize: none;
+    }
+    
+    .contact .row .content .title{
+        text-transform: uppercase;
+        color:#000;
+        font-size: 3rem;
+        padding-bottom: 2rem;
+    }
+    
+    .contact .row .content .info h3{
+        display: flex;
+        align-items: center;
+        font-size: 2rem;
+        color: #000;
+        padding:1rem 0;
+        font-weight: normal;
+    }
+    
+    .contact .row .content .info h3 i{
+        padding-right: 1rem;
+        color:var(--yellow);
+    }
+
+    .unvalidated{
+        font-size: 16px;
+        color: red;
+    }
+
+    .unvalidate-input{
+        border: solid 1px var(--yellow);
+    }
+
+    
+
+    
